@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+
+<title>Ready Kayak Rentals | Niagara Kayaking</title>
+
+<meta name="description" content="Hassle-free kayak rentals in Niagara. We deliver all gear to the launch site. Book online and just show up to paddle." />
+<meta name="keywords" content="kayak rentals Niagara, kayak Niagara River, kayak Ontario, kayak booking" />
+<link rel="canonical" href="https://readykayak.com/" />
+
+<!-- Open Graph -->
+<meta property="og:title" content="Ready Kayak Rentals" />
+<meta property="og:description" content="Book kayak rentals in Niagara. Gear delivered to launch site." />
+<meta property="og:url" content="https://readykayak.com" />
+<meta property="og:type" content="website" />
+
+<!-- Google Analytics (optional replace ID) -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-XXXXXXXXXX"></script>
+<script>
+window.dataLayer = window.dataLayer || [];
+function gtag(){dataLayer.push(arguments);}
+gtag('js', new Date());
+gtag('config', 'G-XXXXXXXXXX');
+</script>
+
+<style>
+body {
+  margin:0;
+  font-family: Arial, sans-serif;
+  color:#1f1f1f;
+}
+
+.hero {
+  background: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)),
+  url('https://images.unsplash.com/photo-1500375592092-40eb2168fd21?auto=format&fit=crop&w=1600&q=60');
+  background-size:cover;
+  background-position:center;
+  color:white;
+  text-align:center;
+  padding:100px 20px;
+}
+
+.btn {
+  display:inline-block;
+  margin-top:20px;
+  padding:14px 28px;
+  background:#00a6ff;
+  color:white;
+  text-decoration:none;
+  border-radius:8px;
+  font-weight:bold;
+}
+
+.section {
+  padding:50px 20px;
+  max-width:900px;
+  margin:auto;
+  text-align:center;
+}
+</style>
+
+</head>
+
+<body>
+
+<div class="hero">
+  <h1>Ready Kayak Rentals</h1>
+  <p>We deliver all kayak gear to the launch site — just show up and paddle.</p>
+
+  <a class="btn"
+     href="https://readykayak.square.site"
+     target="_blank"
+     onclick="track('book_click')">
+     Book Now
+  </a>
+</div>
+
+<div class="section">
+  <h2>How It Works</h2>
+  <p>1. Book online → 2. We set up gear → 3. You paddle</p>
+</div>
+
+<div class="section">
+  <h2>Perfect for families, couples & beginners</h2>
+</div>
+
+<script>
+function track(event) {
+  console.log(event);
+}
+</script>
+
+</body>
+</html>
